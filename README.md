@@ -20,5 +20,5 @@
 
 
 
-- Telegram Channel : [NT Bots ❤️‍🩹](https://t.me/AIM_AIIMS143)
+- Telegram Channel : [AIIMS MOTIVATION❤️‍🩹](https://t.me/AIM_AIIMS143)
 - My Tg Id : [Tushar👑](https://t.me/Tushar_1665)

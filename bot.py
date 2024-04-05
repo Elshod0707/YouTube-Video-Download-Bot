@@ -28,7 +28,7 @@ To upload a YouTube video, simply send me the YouTube link.
     
 Enjoy using the bot!
 
-   ©️ Channel : @NT_BOT_CHANNEL
+   ©️ Channel : @AIM_AIIMS143
     """
     message.reply_text(help_text)
 
@@ -59,7 +59,7 @@ async def process_youtube_link(client, message):
          # Delete downloading and uploading text messages
         await app.delete_messages(message.chat.id, [downloading_msg.message_id, uploading_msg.message_id])
     except Exception as e:
-        error_text = 'OWNER : @LISA_FAN_LK 💕\nFor the List of Telegram Bots'
+        error_text = 'OWNER : @Tushar_1665 💕\nFor the List of Telegram'
         await message.reply_text(error_text)
         
 # Start the bot

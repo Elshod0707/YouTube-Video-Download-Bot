@@ -13,7 +13,7 @@ BOT_TOKEN = '6692102608:AAHlwvDq5Qxe5T2EwQPqRlww66pjZ-wyt3Y'
 app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 # Start command handler
-@app.on_message(filters.command("start"))
+@app.on_message(filters.command("tushar"))
 def start(client, message):
     user = message.from_user
     message.reply_text(f"Hello, @{user.username}!\n\nSend me the YouTube link of the video you want to upload.")

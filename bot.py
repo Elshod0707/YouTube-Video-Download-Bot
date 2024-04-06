@@ -7,7 +7,7 @@ import asyncio
 # Replace 'YOUR_API_ID', 'YOUR_API_HASH', and 'YOUR_BOT_TOKEN' with your actual values
 API_ID = '21125888'
 API_HASH = 'b03021a37d433123ca5e3635036ba8db'
-BOT_TOKEN = '6692102608:AAHlwvDq5Qxe5T2EwQPqRlww66pjZ-wyt3Y'
+BOT_TOKEN = '6990332801:AAGm7f1nXyP6vkvM4INbHoBLhRgbEPKXRlE'
 
 # Create a Pyrogram client
 app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
@@ -59,7 +59,7 @@ async def process_youtube_link(client, message):
          # Delete downloading and uploading text messages
         await app.delete_messages(message.chat.id, [downloading_msg.message_id, uploading_msg.message_id])
     except Exception as e:
-        error_text = 'OWNER : @Tushar_1665 💕\nFor the List of Telegram'
+        error_text = 'BOT MADE BY : @Tushar_1665🌟\nFor the List of Telegram'
         await message.reply_text(error_text)
         
 # Start the bot

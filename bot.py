@@ -5,9 +5,9 @@ from pytube import YouTube
 import asyncio
 
 # Replace 'YOUR_API_ID', 'YOUR_API_HASH', and 'YOUR_BOT_TOKEN' with your actual values
-API_ID = '21125888'
-API_HASH = 'b03021a37d433123ca5e3635036ba8db'
-BOT_TOKEN = '6990332801:AAGm7f1nXyP6vkvM4INbHoBLhRgbEPKXRlE'
+API_ID = '23357639'
+API_HASH = '50ebc6598bde375f90dd21d 1208a4091'
+BOT_TOKEN = '7320686140:AAGUP69E9-qOxbxpxT998swzgV09nPcSXV4'
 
 # Create a Pyrogram client
 app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
